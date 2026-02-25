@@ -1,0 +1,18 @@
+[project]
+name = "regicide-tui"
+version = "0.1.0"
+description = "Terminal-based Regicide card game"
+requires-python = ">=3.10"
+dependencies = [
+    "rich>=13.0.0",
+    "textual>=0.50.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
