@@ -2,6 +2,11 @@
 
 from src.ui.screens import GameScreen
 
-if __name__ == "__main__":
+
+def main():
     app = GameScreen()
     app.run()
+
+
+if __name__ == "__main__":
+    main()

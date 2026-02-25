@@ -15,42 +15,42 @@ class GameScreen(App):
     """Main Regicide game screen."""
 
     CSS = """
-    Screen {
-        background: $surface;
-    }
+Screen {
+    background: $surface;
+}
 
-    # game-container {
-        height: 100%;
-        padding: 1;
-    }
+#game-container {
+    height: 100%;
+    padding: 1;
+}
 
-    # enemy-section {
-        height: 3;
-        margin-bottom: 1;
-    }
+#enemy-section {
+    height: 3;
+    margin-bottom: 1;
+}
 
-    # hand-section {
-        height: auto;
-        margin-bottom: 1;
-    }
+#hand-section {
+    height: auto;
+    margin-bottom: 1;
+}
 
-    # info-section {
-        height: 3;
-    }
+#info-section {
+    height: 3;
+}
 
-    # status-bar {
-        dock: bottom;
-        height: 1;
-    }
+#status-bar {
+    dock: bottom;
+    height: 1;
+}
 
-    .card {
-        margin: 0 1;
-    }
+.card {
+    margin: 0 1;
+}
 
-    .selected {
-        background: $accent;
-    }
-    """
+.selected {
+    background: $accent;
+}
+"""
 
     BINDINGS = [
         Binding("left", "select_previous", "Previous Card"),
